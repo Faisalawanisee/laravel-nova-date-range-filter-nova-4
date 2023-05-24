@@ -1,0 +1,55 @@
+{
+    "name": "faisalawanisee/laravel-nova-date-range-filter-nova-4",
+    "description": "A Laravel Nova date range filter.",
+    "keywords": [
+        "laravel",
+        "nova",
+        "date",
+        "range",
+        "filter",
+        "nova 4"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Faisal Khalid",
+            "email": "faisalawan.live@gmail.com",
+            "homepage": "https://github.com/faisalawanisee",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/faisalawanisee/laravel-nova-date-range-filter-nova-4/issues"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://nova.laravel.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "laravel/framework": "^5.8 || ^6.0 || ^7.0 || ^8.0",
+        "laravel/nova": "^2.0 || ^3.0"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "FaisalKhalid\\DateRangeFilter\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "FaisalKhalid\\DateRangeFilter\\FilterServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
